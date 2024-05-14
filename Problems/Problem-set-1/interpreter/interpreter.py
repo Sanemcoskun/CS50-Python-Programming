@@ -1,7 +1,7 @@
 expression = input("Expression: ")
+x,y,z = expression.split(" ")
 x = int(x)
 z = int(z)
-x,y,z = expression.split(" ")
 
 if y == '+':
     result = x + z
@@ -11,5 +11,5 @@ elif y == '*':
     result = x * z
 elif y == '/':
     result = x / z
-    
-print(f"{z:.1f}")
+
+print(f"{result:.1f}")

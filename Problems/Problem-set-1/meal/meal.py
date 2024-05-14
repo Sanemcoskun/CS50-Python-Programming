@@ -1,3 +1,4 @@
+
 def main():
     time_str = input("What time is it?")
     time =  convert(time_str)
